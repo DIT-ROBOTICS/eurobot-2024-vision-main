@@ -1,0 +1,6 @@
+[submodule "courtside"]
+	path = courtside
+	url = https://github.com/DIT-ROBOTICS/eurobot-2024-courtside-cam.git
+[submodule "onboard"]
+	path = onboard
+	url = https://github.com/DIT-ROBOTICS/eurobot-2024-onboard-cam.git
