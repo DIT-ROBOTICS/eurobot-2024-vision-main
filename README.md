@@ -15,13 +15,15 @@ Vision Team utilizes 14 Intel RealSense cameras, distributed across courtside an
 5. Follow the setup instructions within each submodule's README for detailed environment setup and dependencies installation.
 
 ## <div align="center"> Camera Configuration </div>
-Courtside Cameras: 2 pairs, totaling 8 cameras, positioned strategically around the central and fixed beacons.
-* 3 cameras monitor the central beacon.
-* 1 camera is specialized for detecting solar panel rotation on the fixed beacon.
-Onboard Cameras: 6 cameras in total.
-2 cameras mounted on a robot with a differential system.
-4 cameras equipped on a robot with a mecanum wheel system.
-Both robots perform the same tasks but implement different technical details.
+### Courtside Cameras (2x4)
+> 2 pairs, totaling 8 cameras, positioned strategically around the central and fixed beacons.
+* 3 cameras monitor the central beacon (CB).
+* 1 camera is specialized for detecting solar panel rotation on the fixed beacon (FB).
+
+### Onboard Cameras (2+4)
+> Both robots perform the same tasks but implement different technical details.
+* 2 cameras mounted on a differential wheel system robot.
+* 4 cameras mounted on a mecanum wheel system robot.
 
 ## <div align="center"> Vision Tasks and Technologies </div>
 
