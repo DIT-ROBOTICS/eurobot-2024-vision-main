@@ -25,19 +25,16 @@ Vision Team utilizes 14 Intel RealSense cameras, distributed across courtside an
 
 ## <div align="center"> 📷 Camera Configuration 📷</div>
 
-### Courtside Cameras (2x4)
-
-> 2 pairs, totaling 8 cameras, positioned strategically around the central and fixed beacons.
-
-* 3 cameras monitor the central beacon (CB).
-* 1 camera is specialized for detecting solar panel rotation on the fixed beacon (FB).
-
-### Onboard Cameras (2+4)
-
 > Both robots perform the same tasks but implement different technical details.
 
-* 2 cameras mounted on a differential wheel system robot.
-* 4 cameras mounted on a mecanum wheel system robot.
+| Place     | Location                   |Number| Task                                 | Technology                                       |
+|-----------|----------------------------|------|--------------------------------------|--------------------------------------------------|
+| Courtside | Central Beacon (CB)        |  3   | Detect solar panel rotating angle    | Aruco tag                                        |
+| Courtside | Fixed Beacon (FB)          |  1   | Detect position of plants and pots   | YOLOv8                                           |
+| Onboard   | Mecanum Wheel Robot   | 4 | Precise position of plants and pots  | YOLOv8                            |
+| Onboard   | Differential Wheel Robot   | 2  | Detect ladybugs                      | YOLOv8 x depth                              |
+
+
 
 ## <div align="center"> Vision Tasks and Technologies </div>
 
@@ -51,13 +48,6 @@ Vision Team utilizes 14 Intel RealSense cameras, distributed across courtside an
         </a>
     </p>
 </div>
-
-| Module    | Task                                  | Technology                                       |
-|-----------|---------------------------------------|--------------------------------------------------|
-| Courtside | Detect solar panel rotating angle     | Aruco tag                                        |
-| Courtside | Detect position of plants and pots    | YOLOv8                                           |
-| Onboard   | Precise position of plants and pots   | YOLOv8                                           |
-| Onboard   | Detect ladybugs                       | Integration x depth    |
 
 
 ## <div align="center"> Contribution </div>
