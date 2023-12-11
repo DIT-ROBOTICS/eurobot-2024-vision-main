@@ -37,7 +37,7 @@ Vision Team utilizes 14 Intel RealSense cameras, distributed across courtside an
 ## <div align="center"> Contribution </div>
 
 We love your input! 
-To contribute to theeurobot-2024-vision-main project, please refer to the CONTRIBUTING.md file for guidelines.
+To contribute to the eurobot-2024-vision-main project, please refer to the CONTRIBUTING.md file for guidelines.
 
 ## <div align="center"> Support </div>
 For any issues or support, please open an issue in this repository or contact the maintainers directly.
