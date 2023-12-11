@@ -1,7 +1,15 @@
 # <div align="center"> eurobot-2024-vision-main </div>
 Vision Team utilizes 14 Intel RealSense cameras, distributed across courtside and onboard modules, to perform various detection tasks in Eurobot 2024.
 
+<div align="center">
+  <p>
+    <a href="https://www.eurobot.org/eurobot-contest/eurobot-2024/" target="_blank">
+      <img width="100%" src="https://github.com/pomelo925/pomelo925-resources/blob/main/eurobot-2024/eurobot-2024-map.png?raw=true" alt="eurobot-2024-map"></a>
+  </p>
+<div>
+
 ## <div align="center"> Getting Started </div>
+
 1. Clone this repository.
    
    ```bash
@@ -16,13 +24,18 @@ Vision Team utilizes 14 Intel RealSense cameras, distributed across courtside an
 5. Follow the setup instructions within each submodule's README for detailed environment setup and dependencies installation.
 
 ## <div align="center"> Camera Configuration </div>
+
 ### Courtside Cameras (2x4)
+
 > 2 pairs, totaling 8 cameras, positioned strategically around the central and fixed beacons.
+
 * 3 cameras monitor the central beacon (CB).
 * 1 camera is specialized for detecting solar panel rotation on the fixed beacon (FB).
 
 ### Onboard Cameras (2+4)
+
 > Both robots perform the same tasks but implement different technical details.
+
 * 2 cameras mounted on a differential wheel system robot.
 * 4 cameras mounted on a mecanum wheel system robot.
 
@@ -41,4 +54,5 @@ We love your input!
 To contribute to the eurobot-2024-vision-main project, please refer to the CONTRIBUTING.md file for guidelines.
 
 ## <div align="center"> Support </div>
+
 For any issues or support, please open an issue in this repository or contact the maintainers directly.
