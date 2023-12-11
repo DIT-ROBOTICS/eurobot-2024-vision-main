@@ -1,5 +1,5 @@
 # <div align="center"> eurobot-2024-vision-main </div>
-Vision Team utilizes 14 Intel RealSense cameras, distributed across courtside and onboard modules, to perform various detection tasks in Eurobot 2024.
+Vision Team utilizes 14 Intel® RealSense™ cameras, distributed across courtside and onboard modules, to perform various detection tasks in Eurobot 2024.
 
 <div align="center">
   <p>
@@ -29,10 +29,10 @@ Vision Team utilizes 14 Intel RealSense cameras, distributed across courtside an
 
 | Place     | Location                   |Number| Task                                 | Technology                                       |
 |-----------|----------------------------|------|--------------------------------------|--------------------------------------------------|
-| Courtside | Central Beacon (CB)        |  3   | Detect solar panel rotating angle    | Aruco tag                                        |
-| Courtside | Fixed Beacon (FB)          |  1   | Detect position of plants and pots   | YOLOv8                                           |
-| Onboard   | Mecanum Wheel Robot   | 4 | Precise position of plants and pots  | YOLOv8                            |
-| Onboard   | Differential Wheel Robot   | 2  | Detect ladybugs                      | YOLOv8 x depth                              |
+| Courtside | Central Beacon (CB)        |  3   | Solar Panel     | Aruco tag                                        |
+| Courtside | Fixed Beacon (FB)          |  1   | Plants & Pots   | YOLOv8                                           |
+| Onboard   | Mecanum Wheel Robot   | 4 | Plants & Pots (precise)  | YOLOv8                            |
+| Onboard   | Differential Wheel Robot   | 2  | Ladybugs                 | YOLOv8 x depth                              |
 
 
 
