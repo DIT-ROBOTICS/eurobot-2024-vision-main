@@ -4,3 +4,6 @@
 [submodule "onboard"]
 	path = onboard
 	url = https://github.com/DIT-ROBOTICS/eurobot-2024-onboard-cam.git
+[submodule "envs"]
+	path = envs2
+	url = https://github.com/DIT-ROBOTICS/eurobot-2024-vision-env.git
