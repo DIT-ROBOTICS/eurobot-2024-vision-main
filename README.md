@@ -19,7 +19,7 @@ Vision Team utilizes 14 Intel® RealSense™ cameras, distributed across courtsi
    
    ```bash
    cd eurobot-2024-vision-main
-   git submodule update --init
+   git submodule update --init --recursive
    ```
 5. Follow the setup instructions within each submodule's README for detailed environment setup and dependencies installation.
 
